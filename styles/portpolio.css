@@ -1,3 +1,118 @@
-h1 {
-  color: aqua;
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+header {
+  background: #fff8f3;
+  background-image: url(../images/header_bg.png), url(../images/developer.png);
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+}
+.nav-title {
+  color: #181818;
+  font-weight: 800;
+  font-size: 45px;
+}
+.text-primary {
+  color: #fd6e0a;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 200px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+.btn_primary {
+  background-color: #fd6e0a;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  color: #ffffff;
+}
+
+.banner {
+  display: flex;
+  margin: 0 200px;
+  align-items: center;
+}
+.banner-sub-title {
+  font-weight: 600;
+  font-size: 45px;
+}
+.banner-title {
+  color: #181818;
+  font-weight: 700;
+  font-size: 85px;
+}
+.banner_description {
+  color: #757575;
+  margin: 20px 0;
+}
+/* header style end */
+main {
+  width: 1140px;
+  margin: 0 auto;
+}
+.about {
+  margin-top: 100px;
+  background: #fff8f3;
+  border-radius: 10px;
+  border: 1px solid;
+  padding: 130px 150px;
+}
+.section_title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+}
+.section-description {
+  text-align: center;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 30px;
+}
+.info-title {
+  font-weight: 400;
+  font-size: 20px;
+  color: #757575;
+}
+.info-description {
+  font-weight: 700;
+  font-size: 20px;
+  color: #474747;
+}
+/* what i do styles */
+.what-i-do > .section_title {
+  margin-top: 100px;
+}
+.skills-container {
+  display: flex;
+  margin-top: 50px;
+}
+.skill {
+  width: 265px;
+  height: 375px;
+  background: #ffffff;
+  border-radius: 5px;
+  margin-right: 24px;
+  padding: 35px;
+}
+.skill-title {
+  font-weight: 700;
+  font-size: 20px;
+  color: #181818;
+  margin: 30px 0;
 }
